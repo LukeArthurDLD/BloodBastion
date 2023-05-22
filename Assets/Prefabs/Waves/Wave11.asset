@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a56a91e296ba63e48bda24c21c80569e, type: 3}
+  m_Name: Wave11
+  m_EditorClassIdentifier: 
+  groups:
+  - enemy: {fileID: 7398344545894567594, guid: 22995cf52ddde5441891c37ad7614868, type: 3}
+    count: 10
+    rate: 0.5
+    delay: 0.1
+  - enemy: {fileID: 8746943888987308273, guid: cd31580df2e377a4380a92fde5d73ba2, type: 3}
+    count: 2
+    rate: 0.2
+    delay: 0.1
+  - enemy: {fileID: 8746943888987308273, guid: dcb805207894f4a4eb85efbdf3b5ff0e, type: 3}
+    count: 5
+    rate: 0.5
+    delay: 0.1
+  - enemy: {fileID: 8746943888987308273, guid: cd31580df2e377a4380a92fde5d73ba2, type: 3}
+    count: 2
+    rate: 0.2
+    delay: 0.1
+  - enemy: {fileID: 8746943888987308273, guid: dcb805207894f4a4eb85efbdf3b5ff0e, type: 3}
+    count: 5
+    rate: 0.5
+    delay: 0.1
+  rate: 2
